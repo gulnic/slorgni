@@ -1,0 +1,32 @@
+body {
+padding:40px;
+margin: 0 auto;
+/*background-image:url(../img/bg.png);
+background-repeat: repeat;*/
+}
+/*
+.thumbnail {
+padding-top:0.33em;
+}*/
+
+.span3 {
+background:#fff;
+padding:0.33em;
+border-radius:0.33em;
+}
+
+h2 {
+color:#fff;
+}
+
+.recursos {
+list-style-type: none;
+}
+
+.recursos a:hover {
+text-decoration:none;
+}
+
+.recursos li {
+vertical-align: middle;
+}

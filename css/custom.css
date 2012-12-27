@@ -1,0 +1,21 @@
+body {
+padding:40px;
+margin: 0 auto;
+}
+
+.span3 {
+padding:0.33em;
+border-radius:0.33em;
+}
+
+.recursos {
+list-style-type: none;
+}
+
+.recursos a:hover {
+text-decoration:none;
+}
+
+.recursos li {
+vertical-align: middle;
+}
