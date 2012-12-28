@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.softwarelibre.org.ni$ [NC]
+RewriteRule ^(.*)$ http://softwarelibre.org.ni/$1 [R=301,L]
