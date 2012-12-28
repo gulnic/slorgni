@@ -11,8 +11,8 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script>
 	jQuery(document).ready(function($) {
- 	
-		$(".scroll").click(function(event){		
+
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 		});
@@ -20,9 +20,10 @@
 	</script>
   </head>
   <body>
-    <div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+  <div class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
-    <a class="brand">GUL-NIC</a>
+    <a class="brand"><span class="software">software</span><span class="libre">libre</span>.org.ni</a>
     <ul class="nav">
       <li><a href="#inicio" class="scroll">Quienes somos</a></li>
       <li><a href="#comunidades" class="scroll">Comunidades</a></li>
@@ -42,7 +43,7 @@
 <p class="lead">Bienvenidos al sitio oficial de la Comunidad de Software Libre de Nicaragua (GUL-NIC).</p>
 <p>Somos una comunidad compuesta por usuarios, desarrolladores y activistas del software libre, quienes desde el año 2007 nos dedicamos a promover el uso y desarrollo de tecnologías libres y abiertas en Nicaragua.</p>
 <p>Puedes suscribirte a nuestra <a href="http://mail.linuxtour.org/mailman/listinfo/comunidad_linuxtour.org">lista de correos pública</a> para estar al tanto de las últimas novedades, participar de <a href="#eventos" class="scroll">nuestros eventos</a>, o bien, involucrarte en las actividades y proyectos de algunas de las <a href="#comunidades" class="scroll">comunidades que forman parte de GUL-NIC</a>.</p>
-<p>Si ya formas parte de una comunidad o estás interesado en iniciar una comunidad de software libre, ya sea en tu colegio, universidad, ciudad, o una comunidad con una temática específica (orientada a una <a href="http://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux">distribución</a> o una herramienta o lenguaje de programación en particular), te recomendamos revisar la sección de <a href="#recursos" class="scroll">recursos</a>.</p> 
+<p>Si ya formas parte de una comunidad o estás interesado en iniciar una comunidad de software libre, ya sea en tu colegio, universidad, ciudad, o una comunidad con una temática específica (orientada a una <a href="http://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux">distribución</a> o una herramienta o lenguaje de programación en particular), te recomendamos revisar la sección de <a href="#recursos" class="scroll">recursos</a>.</p>
 
 <a id="comunidades"></a>
 <img src="img/separador.png" alt="" />
@@ -219,7 +220,7 @@
 
 <h2>Eventos</h2>
 <p class="lead">Las comunidades de GUL-NIC han organizado más de 150 eventos nacionales e internacionales de software libre desde el 2007.</p>
-<p>Cada comunidad desarrolla sus propios eventos y actividades, tales como fiestas de lanzamiento, eventos de traducción y desarrollo, o reuniones informales con el propósito de conocerse y hablar sobre temas de interés común.</p> 
+<p>Cada comunidad desarrolla sus propios eventos y actividades, tales como fiestas de lanzamiento, eventos de traducción y desarrollo, o reuniones informales con el propósito de conocerse y hablar sobre temas de interés común.</p>
 <p>Algunas de estas comunidades también organizan grandes eventos internacionales en nuestro país, con el objetivo de fortalecer los lazos entre la comunidad local y la comunidad global. Ejemplo de esto último es la <a href="http://debconf12.debconf.org">Conferencia de Desarrolladores de Debian (DebConf)</a>, el <a href="http://drupal-centroamerica.org/news/drupalcamp-centroam%C3%A9rica-nicaragua-2009">DrupalCamp</a> o el <a href="http://2013.nicaragua.wordcamp.org/">WordCamp</a>.</p>
 <p>A nivel general, se organizan eventos con la participación de toda la comunidad, como el <a href="http://festival.softwarelibre.org.ni/">Festival Nacional de Software Libre</a>, la versión internacional que es el <a href="http://linuxtour.org/flisol">FLISOL</a>, o a nivel centroamericano, el <a href="http://softwarelibre.ca/node/12">Encuentro Centroamericano de Software Libre</a>.</p>
 <p>Los eventos generales de la comunidad se llevan a cabo bajo la marca <a href="http://linuxtour.org">Linux Tour</a>. Puedes consultar el sitio web o suscribirte a la <a href="http://mail.linuxtour.org/mailman/listinfo/eventos_linuxtour.org">lista de correos de Eventos</a> para estar al tanto de los últimos eventos que se celebran en nuestro país.</p>
@@ -246,6 +247,6 @@
 <p>Gracias a el <a href="http://www.isic.edu.ni/">Instituto de Informática y Comercio (ISIC)</a> por el alojamiento. Este sitio web fue desarrollado <a href="http://twitter.github.com/bootstrap/">con todo el &hearts; del mundo</a> por la Comunidad de Software Libre de Nicaragua.</p>
 <p>Todo el contenido de este sitio está liberado bajo una licencia <a href="http://creativecommons.org/licenses/by/3.0/deed.es_ES">Creative Commons CC-BY 3.0 Unported</a>. Algunas marcas y logotipos pueden estar protegidas por leyes internacionales, y son marca registradas propiedad de sus respectivos dueños.</p>
 <p>Última actualización: Diciembre 2012.</p>
-
+    </div>
   </body>
 </html>

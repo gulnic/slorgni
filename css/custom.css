@@ -1,21 +1,89 @@
 body {
-padding:40px;
-margin: 0 auto;
+  padding-top: 40px;
+  margin: 0 auto;
 }
 
-.span3 {
-padding:0.33em;
-border-radius:0.33em;
+
+
+
+@media (min-width: 1200px) {
+  .span3 {
+    width: 210px !important;
+  }
+  .container-fluid {
+    padding: 0px 120px !important;
+  }
+  div.navbar-fixed-top div.navbar-inner,
+  div.navbar-fixed-bottom div.navbar-inner {
+    padding-left: 120px;
+  }
+}
+
+@media (min-width: 980px)  and (max-width: 1199px) {
+  .span3 {
+    width: 190px !important;
+  }
+  .container-fluid {
+    padding: 0px 60px !important;
+  }
+  div.navbar-fixed-top div.navbar-inner,
+  div.navbar-fixed-bottom div.navbar-inner {
+    padding-left: 60px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .span3 {
+    width: 160px !important;
+  }
+  .container-fluid {
+    padding: 0px 20px !important;
+  }
+  div.navbar-fixed-top div.navbar-inner,
+  div.navbar-fixed-bottom div.navbar-inner {
+    padding-left: 20px;
+  }
+}
+
+
+
+li.span3 {
+  padding:0.33em;
+  border-radius:1em;
+}
+
+li.span12 {
+  padding:40px 120px
 }
 
 .recursos {
-list-style-type: none;
+  list-style-type: none;
+  padding: 10px 15px;
 }
 
 .recursos a:hover {
-text-decoration:none;
+  text-decoration:none;
 }
 
 .recursos li {
-vertical-align: middle;
+  vertical-align: middle;
+}
+
+.navbar a.brand:hover {
+  color: #378;
+}
+
+.brand .software {
+  font-weight: bold;
+}
+
+.brand .libre {
+  font-weight: bold;
+  color: #eee;
+}
+
+
+.span3 div.thumbnail {
+  padding-top: 15px;
 }
