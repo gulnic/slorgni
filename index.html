@@ -8,7 +8,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 	<script src="js/custom.js" type="text/javascript" charset="utf-8"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="js/jquery.backstretch.min.js" type="text/javascript" charset="utf-8"></script>
 	<script>
 	jQuery(document).ready(function($) {
 
@@ -16,6 +17,18 @@
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 		});
+
+    $.backstretch(
+      [
+        "/img/background/1_b.jpg",
+      "/img/background/2_b.jpg",
+      "/img/background/3_b.jpg",
+      "/img/background/4_b.jpg",
+      "/img/background/5_b.jpg",
+    ],
+    {duration: 7000, fade: 750});
+
+
 	});
 	</script>
   </head>
@@ -23,9 +36,8 @@
   <div class="container-fluid">
   <div class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
-    <a class="brand"><span class="software">software</span><span class="libre">libre</span>.org.ni</a>
+    <a href="#inicio" class="scroll brand"><span class="software">software</span><span class="libre">libre</span>.org.ni</a></a>
     <ul class="nav">
-      <li><a href="#inicio" class="scroll">Quienes somos</a></li>
       <li><a href="#comunidades" class="scroll">Comunidades</a></li>
       <li><a href="#eventos" class="scroll">Eventos</a></li>
       <li><a href="#recursos" class="scroll">Recursos</a></li>
@@ -39,7 +51,6 @@
 <a id="inicio"></a>
 <img src="img/separador.png" alt="" />
 
-<h2>Quienes somos</h2>
 <p class="lead">Bienvenidos al sitio oficial de la Comunidad de Software Libre de Nicaragua (GUL-NIC).</p>
 <p>Somos una comunidad compuesta por usuarios, desarrolladores y activistas del software libre, quienes desde el año 2007 nos dedicamos a promover el uso y desarrollo de tecnologías libres y abiertas en Nicaragua.</p>
 <p>Puedes suscribirte a nuestra <a href="http://mail.linuxtour.org/mailman/listinfo/comunidad_linuxtour.org">lista de correos pública</a> para estar al tanto de las últimas novedades, participar de <a href="#eventos" class="scroll">nuestros eventos</a>, o bien, involucrarte en las actividades y proyectos de algunas de las <a href="#comunidades" class="scroll">comunidades que forman parte de GUL-NIC</a>.</p>
