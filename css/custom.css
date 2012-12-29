@@ -1,17 +1,33 @@
 body {
   padding-top: 40px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 
-
+.container-fluid {
+  background-color: #fff !important;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80); /*for Internet Explorer 6/7*/
+  filter: “alpha(opacity=80)”; /*for Internet Explorer 8*/
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  padding-bottom: 40px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+}
 
 @media (min-width: 1200px) {
   .span3 {
     width: 210px !important;
   }
   .container-fluid {
-    padding: 0px 120px !important;
+    margin: 0px 120px !important;
   }
   div.navbar-fixed-top div.navbar-inner,
   div.navbar-fixed-bottom div.navbar-inner {
@@ -24,7 +40,7 @@ body {
     width: 190px !important;
   }
   .container-fluid {
-    padding: 0px 60px !important;
+    margin: 0px 60px !important;
   }
   div.navbar-fixed-top div.navbar-inner,
   div.navbar-fixed-bottom div.navbar-inner {
@@ -38,7 +54,7 @@ body {
     width: 160px !important;
   }
   .container-fluid {
-    padding: 0px 20px !important;
+    margin: 0px 20px !important;
   }
   div.navbar-fixed-top div.navbar-inner,
   div.navbar-fixed-bottom div.navbar-inner {
@@ -51,6 +67,8 @@ body {
 li.span3 {
   padding:0.33em;
   border-radius:1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
 }
 
 li.span12 {
