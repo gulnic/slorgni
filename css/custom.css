@@ -54,10 +54,9 @@ body {
   }
   div.navbar div.navbar-inner div.navigation,
   .container-inside {
-    margin: 0 !important;
+    margin: 0 auto !important;
     padding: 0 20px !important;
     width: 740px !important;
-
   }
 }
 
