@@ -24,10 +24,11 @@ body {
 
 @media (min-width: 1200px) {
   .span3 {
-    width: 210px !important;
+    width: 195px !important;
   }
   .container-fluid {
     margin: 0px 120px !important;
+    width: 910px;
   }
   div.navbar-fixed-top div.navbar-inner,
   div.navbar-fixed-bottom div.navbar-inner {
@@ -37,10 +38,11 @@ body {
 
 @media (min-width: 980px)  and (max-width: 1199px) {
   .span3 {
-    width: 190px !important;
+    width: 180px !important;
   }
   .container-fluid {
     margin: 0px 60px !important;
+    width: 820px;
   }
   div.navbar-fixed-top div.navbar-inner,
   div.navbar-fixed-bottom div.navbar-inner {
@@ -48,13 +50,19 @@ body {
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 979px) {
   .span3 {
-    width: 160px !important;
+    width: 150px !important;
   }
   .container-fluid {
-    margin: 0px 20px !important;
+    padding: 0 !important;
+    margin: 0 20px !important;
+    width: 740px !important;
+
+  }
+  .container-inside {
+    margin: 0px 0px !important;
+    padding: 0px 20px !important;
   }
   div.navbar-fixed-top div.navbar-inner,
   div.navbar-fixed-bottom div.navbar-inner {
@@ -62,22 +70,34 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  div.navbar-fixed-top div.navbar-inner,
+  div.navbar-fixed-bottom div.navbar-inner {
+    padding-left: 20px;
+  }
+  .container-inside {
+    padding: 0px 20px !important;
+  }
+}
 
 
 li.span3 {
   padding:0.33em;
-  border-radius:1em;
-  -moz-border-radius: 1em;
-  -webkit-border-radius: 1em;
 }
 
 li.span12 {
   padding:40px 120px
 }
 
+
+.thumbnail {
+  border-width: 3px !important;
+  background-color: #eee;
+  border-color: #ddd !important;
+}
 .recursos {
   list-style-type: none;
-  padding: 10px 15px;
+  padding: 10px 0px;
 }
 
 .recursos a:hover {
@@ -104,4 +124,29 @@ li.span12 {
 
 .span3 div.thumbnail {
   padding-top: 15px;
+}
+
+
+h1.lead {
+  font-size: 2.3em !important;
+  text-align: center;
+}
+
+.abbreviation {
+  font-weight: bold;
+  color: #999;
+  font-size: 0.8em;
+}
+
+.highlighted {
+  font-weight: 700;
+  margin: 30px;
+  padding: 30px;
+  background-color: #ddd;
+  border-color: #ccc;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
 }
