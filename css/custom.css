@@ -90,8 +90,8 @@ li.span12 {
 .thumbnail {
   padding-top: 10px;
   border-width: 2px !important;
-  background-color: #ddd;
-  border-color: #ccc !important;
+  background-color: #fff;
+  border-color: #ddd !important;
   border-radius: 10px !important;
   -moz-border-radius: 10px !important;
   -webkit-border-radius: 10px !important;
@@ -105,8 +105,8 @@ li.span12 {
 
 
 .thumbnail:hover {
-  background-color: #ccc;
-  border-color: #bbb !important;
+  background-color: #000;
+  border-color: #ccc !important;
 }
 
 .recursos {
