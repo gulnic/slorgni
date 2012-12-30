@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   padding-bottom: 40px;
   background-color: #fff !important;
+  text-align: justify;
 }
 
 
@@ -136,12 +137,18 @@ li.span12 {
 }
 
 
-h1.lead {
-  font-size: 2.3em !important;
+h1.title {
   text-align: center;
+  font-weight: bold;
 }
 
-.abbreviation {
+.featured {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.subtitle {
   font-weight: bold;
   color: #ccc;
   font-size: 2.5em;
@@ -158,4 +165,5 @@ h1.lead {
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+
 }
