@@ -87,10 +87,27 @@ li.span12 {
 
 
 .thumbnail {
-  border-width: 3px !important;
-  background-color: #eee;
-  border-color: #ddd !important;
+  padding-top: 10px;
+  border-width: 2px !important;
+  background-color: #ddd;
+  border-color: #ccc !important;
+  border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
 }
+
+.thumbnail img {
+    border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+}
+
+
+.thumbnail:hover {
+  background-color: #ccc;
+  border-color: #bbb !important;
+}
+
 .recursos {
   list-style-type: none;
   padding: 10px 0px;
@@ -118,11 +135,6 @@ li.span12 {
 }
 
 
-.span3 div.thumbnail {
-  padding-top: 15px;
-}
-
-
 h1.lead {
   font-size: 2.3em !important;
   text-align: center;
@@ -131,7 +143,8 @@ h1.lead {
 .abbreviation {
   font-weight: bold;
   color: #999;
-  font-size: 0.8em;
+  font-size: 2em;
+  text-align: center;
 }
 
 .highlighted {
@@ -140,9 +153,9 @@ h1.lead {
   padding: 30px;
   background-color: #ddd;
   border-color: #ccc;
-  border-width: 5px;
+  border-width: 2px;
   border-style: solid;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
