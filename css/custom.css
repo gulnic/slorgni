@@ -2,6 +2,7 @@ body {
   padding-top: 40px;
   margin: 0 auto;
   padding-bottom: 40px;
+  background-color: #fff !important;
 }
 
 
@@ -142,18 +143,17 @@ h1.lead {
 
 .abbreviation {
   font-weight: bold;
-  color: #999;
-  font-size: 2em;
+  color: #ccc;
+  font-size: 2.5em;
   text-align: center;
 }
 
 .highlighted {
-  font-weight: 700;
-  margin: 30px;
+  font-weight: 500;
   padding: 30px;
-  background-color: #ddd;
-  border-color: #ccc;
-  border-width: 2px;
+  background-color: #eee;
+  border-color: #ddd;
+  border-width: 12px;
   border-style: solid;
   border-radius: 10px;
   -moz-border-radius: 10px;
