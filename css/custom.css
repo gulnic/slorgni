@@ -56,13 +56,13 @@ body {
   }
   .container-fluid {
     padding: 0 !important;
-    margin: 0 20px !important;
-    width: 740px !important;
 
   }
   .container-inside {
-    margin: 0px 0px !important;
-    padding: 0px 20px !important;
+    margin: 0 !important;
+    padding: 0 20px !important;
+    width: 740px !important;
+
   }
   div.navbar-fixed-top div.navbar-inner,
   div.navbar-fixed-bottom div.navbar-inner {
@@ -75,8 +75,14 @@ body {
   div.navbar-fixed-bottom div.navbar-inner {
     padding-left: 20px;
   }
+  body {
+    padding: 0 !important;
+  }
+  .container-fluid {
+    padding: 0 20px !important;
+  }
   .container-inside {
-    padding: 0px 20px !important;
+    padding: 0 20px !important;
   }
 }
 
