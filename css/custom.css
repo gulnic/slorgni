@@ -26,13 +26,10 @@ body {
   .span3 {
     width: 195px !important;
   }
+  div.navbar div.navbar-inner div.navigation,
   .container-fluid {
-    margin: 0px 120px !important;
+    margin: 0px auto !important;
     width: 910px;
-  }
-  div.navbar-fixed-top div.navbar-inner,
-  div.navbar-fixed-bottom div.navbar-inner {
-    padding-left: 120px;
   }
 }
 
@@ -40,13 +37,10 @@ body {
   .span3 {
     width: 180px !important;
   }
+  div.navbar div.navbar-inner div.navigation,
   .container-fluid {
-    margin: 0px 60px !important;
+    margin: 0px auto !important;
     width: 820px;
-  }
-  div.navbar-fixed-top div.navbar-inner,
-  div.navbar-fixed-bottom div.navbar-inner {
-    padding-left: 60px;
   }
 }
 
@@ -58,15 +52,12 @@ body {
     padding: 0 !important;
 
   }
+  div.navbar div.navbar-inner div.navigation,
   .container-inside {
     margin: 0 !important;
     padding: 0 20px !important;
     width: 740px !important;
 
-  }
-  div.navbar-fixed-top div.navbar-inner,
-  div.navbar-fixed-bottom div.navbar-inner {
-    padding-left: 20px;
   }
 }
 
