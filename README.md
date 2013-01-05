@@ -17,6 +17,10 @@ Página de inicio de http://softwarelibre.org.ni
 
 + http://github.com/xamanu
 
+**Jorge Vallecillo**
+
++ http://github.com/altmas5
+
 ## Copyright and license
 
 Copyright 2012-2013 Comunidad de Software Libre de Nicaragua
