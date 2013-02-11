@@ -21,6 +21,10 @@ Página de inicio de http://softwarelibre.org.ni
 
 + http://github.com/altmas5
 
+** William Moreno **
+
++ http://github.com/williamjmorenor
+
 ## Copyright and license
 
 Copyright 2012-2013 Comunidad de Software Libre de Nicaragua
