@@ -5,25 +5,19 @@ Página de inicio de http://softwarelibre.org.ni
 
 ## Authors
 
-**Leandro Gómez**
+* [Leandro Gómez](https://github.com/leogg)
 
-+ http://github.com/leogg
+* [Adolfo Fitoria](https://github.com/fitoria)
 
-**Adolfo Fitoria**
+* [Felix Delattre](https://github.com/xamanu)
 
-+ http://github.com/fitoria
+* [Jorge Vallecillo](https://github.com/altmas5)
 
-**Felix Delattre**
+* [William Moreno](https://github.com/williamjmorenor)
 
-+ http://github.com/xamanu
+* [Erick Vanegas](https://github.com/eveevans)
 
-**Jorge Vallecillo**
-
-+ http://github.com/altmas5
-
-** William Moreno **
-
-+ http://github.com/williamjmorenor
+ [Contrib graphs](https://github.com/leogg/slorgni/graphs/contributors)
 
 ## Copyright and license
 
