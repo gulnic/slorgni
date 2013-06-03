@@ -227,6 +227,18 @@ li.span12 {
   background:url('../img/icons-white.png') -119px 0;
 }
 
+.github{
+  left:134px;
+  width:16px;
+  background:url('../img/icons-gray.png') -135px 0;
+}
+
+.thumbnail:hover .github{
+  left:134px;
+  width:16px;
+  background:url('../img/icons-white.png') -135px 0;
+  }
+
 .navbar a.brand:hover {
   color: #378;
 }
