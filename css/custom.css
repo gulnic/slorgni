@@ -111,8 +111,16 @@ li.span12 {
 }
 
 .recursos {
+  position:relative;
   list-style-type: none;
   padding: 10px 0px;
+}
+
+.recursos a {
+  height:16px;
+  display:block;
+  padding-left:22px;
+  min-width:120px;
 }
 
 .recursos a:hover {
@@ -122,6 +130,114 @@ li.span12 {
 .recursos li {
   vertical-align: middle;
 }
+
+.web {
+  left:0px;
+  width:16px;
+  background:url('../img/icons-gray.png') 0 0;
+}
+
+.thumbnail:hover .web {
+  left:0px;
+  width:16px;
+  background:url('../img/icons-white.png') 0 0;
+}
+
+.correo {
+  left:32px;
+  width:16px;
+  background:url('../img/icons-gray.png') -17px 0;
+}
+
+.thumbnail:hover .correo {
+  left:32px;
+  width:16px;
+  background:url('../img/icons-white.png') -17px 0;
+}
+
+.wiki {
+  left:48px;
+  width:16px;
+  background:url('../img/icons-gray.png') -34px 0;
+}
+
+.thumbnail:hover .wiki {
+  left:48px;
+  width:16px;
+  background:url('../img/icons-white.png') -34px 0;
+}
+
+.twitter{
+  left:64px;
+  width:16px;
+  background:url('../img/icons-gray.png') -51px 0;
+}
+
+.thumbnail:hover .twitter{
+  left:64px;
+  width:16px;
+  background:url('../img/icons-white.png') -51px 0;
+}
+
+.identica{
+  left:80px;
+  width:16px;
+  background:url('../img/icons-gray.png') -68px 0;
+}
+
+.thumbnail:hover .identica{
+  left:80px;
+  width:16px;
+  background:url('../img/icons-white.png') -68px 0;
+}
+
+.facebook{
+  left:96px;
+  width:16px;
+  background:url('../img/icons-gray.png') -85px 0;
+}
+
+.thumbnail:hover .facebook{
+  left:96px;
+  width:16px;
+  background:url('../img/icons-white.png') -85px 0;
+}
+
+.irc{
+  left:112px;
+  width:16px;
+  background:url('../img/icons-gray.png') -102px 0;
+}
+
+.thumbnail:hover .irc{
+  left:112px;
+  width:16px;
+  background:url('../img/icons-white.png') -102px 0;
+}
+
+.youtube{
+  left:128px;
+  width:16px;
+  background:url('../img/icons-gray.png') -119px 0;
+}
+
+.thumbnail:hover .youtube{
+  left:128px;
+  width:16px;
+  background:url('../img/icons-white.png') -119px 0;
+}
+
+.github{
+  left:134px;
+  width:16px;
+  background:url('../img/icons-gray.png') -135px 0;
+}
+
+.thumbnail:hover .github{
+  left:134px;
+  width:16px;
+  background:url('../img/icons-white.png') -135px 0;
+  }
 
 .navbar a.brand:hover {
   color: #378;
