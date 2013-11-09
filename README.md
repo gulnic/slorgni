@@ -17,6 +17,8 @@ Página de inicio de http://softwarelibre.org.ni
 
 * [Erick Vanegas](https://github.com/eveevans)
 
+* [Norman García Aguilar](https://github.com/n0rman)
+
  [Contrib graphs](https://github.com/leogg/slorgni/graphs/contributors)
 
 ## Copyright and license
