@@ -19,6 +19,10 @@ Página de inicio de http://softwarelibre.org.ni
 
 * [Norman García Aguilar](https://github.com/n0rman)
 
+* [Paulo McNally](https://github.com/paulomcnally)
+
+* [Salvador Aguilar](https://github.com/riper81)
+
  [Contrib graphs](https://github.com/leogg/slorgni/graphs/contributors)
 
 ## Copyright and license
