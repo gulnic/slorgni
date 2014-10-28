@@ -179,6 +179,12 @@ li.span12 {
   background:url('../img/icons-white.png') -51px 0;
 }
 
+.gplus {
+  left:64px;
+  width: 16px;
+  background:url('../img/li-gplus.png') 0 0;
+}
+
 .identica{
   left:80px;
   width:16px;
