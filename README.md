@@ -17,10 +17,18 @@ Página de inicio de http://softwarelibre.org.ni
 
 * [Erick Vanegas](https://github.com/eveevans)
 
+* [Norman García Aguilar](https://github.com/n0rman)
+
+* [Paulo McNally](https://github.com/paulomcnally)
+
+* [Salvador Aguilar](https://github.com/riper81)
+
+* [Andrés Reyes Monge](https://github.com/armonge)
+
  [Contrib graphs](https://github.com/leogg/slorgni/graphs/contributors)
 
 ## Copyright and license
 
-Copyright 2012-2013 Comunidad de Software Libre de Nicaragua
+Copyright 2012-2014 Comunidad de Software Libre de Nicaragua
 
 This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
