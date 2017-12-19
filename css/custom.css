@@ -6,6 +6,13 @@ body {
   text-align: justify;
 }
 
+h1.title, h2, .subtitle {
+  font-family: 'Merriweather', serif!important;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 
 .container-fluid {
   background-color: #fff !important;
@@ -268,7 +275,6 @@ h1.title {
   text-align: center;
   font-weight: bold;
 }
-
 
 .subtitle {
   font-weight: bold;
