@@ -25,6 +25,8 @@ Página de inicio de http://softwarelibre.org.ni
 
 * [Andrés Reyes Monge](https://github.com/armonge)
 
+* [Jorge Solórzano](https://github.com/jorsol)
+
  [Contrib graphs](https://github.com/leogg/slorgni/graphs/contributors)
 
 ## Copyright and license
