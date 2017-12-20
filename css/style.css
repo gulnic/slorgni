@@ -1,0 +1,217 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	padding: 20px;
+}
+
+.container-fluid {
+	background-color: #fff !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	/*for Internet Explorer 6/7*/
+	filter: “alpha(opacity=80)”;
+	/*for Internet Explorer 8*/
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	padding-bottom: 40px;
+	border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+}
+
+@media (min-width: 1200px) {
+	.span3 {
+		width: 195px !important;
+	}
+	div.navbar div.navbar-inner div.navigation,
+  .container-fluid {
+		margin: 0px auto !important;
+		width: 1170px;
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	.span3 {
+		width: 180px !important;
+	}
+	div.navbar div.navbar-inner div.navigation,
+  .container-fluid {
+		margin: 0px auto !important;
+		width: 820px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.span3 {
+		width: 150px !important;
+	}
+	.container-fluid {
+		padding: 0 !important;
+	}
+	div.navbar div.navbar-inner div.navigation,
+  .container-inside {
+		margin: 0 auto !important;
+		padding: 0 20px !important;
+		width: 740px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	div.navbar-fixed-top div.navbar-inner,
+  div.navbar-fixed-bottom div.navbar-inner {
+		padding-left: 20px;
+	}
+	body {
+		padding: 0 !important;
+	}
+	.container-fluid {
+		padding: 0 20px !important;
+	}
+	.container-inside {
+		padding: 0 20px !important;
+	}
+	.container {
+		max-width: 100% !important;
+	}
+}
+
+h1.title {
+	text-align: center;
+	font-weight: bold;
+}
+
+h2, .lead {
+	font-weight: bold;
+}
+
+.featured {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.highlighted {
+	font-weight: 500;
+	padding: 30px;
+	background-color: #eee;
+	border-color: #ddd;
+	border-width: 12px;
+	border-style: solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.fa-wikipedia-w,
+.fa-envelope,
+.fa-comment {
+	zoom: 0.9;
+	/*Fix*/
+}
+
+.community-card {
+	background-color: #222222;
+	margin-bottom: 20px;
+}
+
+.community-logo {
+	border-radius: 50%;
+	position: absolute;
+	top: -65px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+	max-width: 100px;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.community-info {
+	color: #BDBDBD;
+	padding: 25px;
+	position: relative;
+	margin-top: 15px;
+}
+
+.community-info h2 {
+	color: #FFF;
+	padding-bottom: 12px;
+}
+
+.community-info span {
+	display: block;
+	font-size: 12px;
+	color: #4CB4B4;
+	letter-spacing: 1px;
+}
+
+.community-info a {
+	color: #4CB4B4;
+}
+
+.community-info a:hover {
+	color: #FFF;
+}
+
+.community-info i {
+	padding: 15px 35px 0px 35px;
+}
+
+.community-card:hover .community-logo {
+	transform: scale(1.1);
+}
+
+.community-card:hover .community-info hr {
+	opacity: 1;
+}
+
+
+/* Underline From Center */
+
+.hvr-underline-from-center {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 52%;
+	right: 52%;
+	bottom: 0;
+	background: #FFFFFF;
+	border-radius: 50%;
+	height: 3px;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.community-card:hover .hvr-underline-from-center:before,
+.community-card:focus .hvr-underline-from-center:before,
+.community-card:active .hvr-underline-from-center:before {
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: #CECECE;
+	border-radius: 0;
+}
