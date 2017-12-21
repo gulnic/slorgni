@@ -27,6 +27,8 @@ Página de inicio de http://softwarelibre.org.ni
 
 * [Jorge Solórzano](https://github.com/jorsol)
 
+* [Rodrigo Rodríguez](https://github.com/roirobo)
+
  [Contrib graphs](https://github.com/leogg/slorgni/graphs/contributors)
 
 ## Copyright and license
