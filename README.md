@@ -29,7 +29,7 @@ Página de inicio de http://softwarelibre.org.ni
 
 * [Rodrigo Rodríguez](https://github.com/roirobo)
 
- [Contrib graphs](https://github.com/leogg/slorgni/graphs/contributors)
+ [Contrib graphs](https://github.com/gulnic/slorgni/graphs/contributors)
 
 ## Copyright and license
 
