@@ -29,10 +29,12 @@ Página de inicio de http://softwarelibre.org.ni
 
 * [Rodrigo Rodríguez](https://github.com/roirobo)
 
+* [Omar Beroterán](https://github.com/berroteran)
+
  [Contrib graphs](https://github.com/gulnic/slorgni/graphs/contributors)
 
 ## Copyright and license
 
-Copyright 2012-2018 Comunidad de Software Libre de Nicaragua
+Copyright 2012-2019 Comunidad de Software Libre de Nicaragua
 
 This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
